@@ -3,6 +3,9 @@
 # 📋 Korvexa Desktop Rich Clipboard (ClipVault)
 ### *Advanced, High-Performance Rich Clipboard Manager for Windows 10 & 11*
 
+[![GitHub Stars](https://img.shields.io/github/stars/muhumair2025/Korvexa-Desktop-Rich-Clipboard?style=for-the-badge&logo=github&color=gold)](https://github.com/muhumair2025/Korvexa-Desktop-Rich-Clipboard/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/muhumair2025/Korvexa-Desktop-Rich-Clipboard?style=for-the-badge&logo=github&color=blue)](https://github.com/muhumair2025/Korvexa-Desktop-Rich-Clipboard/network/members)
+[![GitHub Release](https://img.shields.io/github/v/release/muhumair2025/Korvexa-Desktop-Rich-Clipboard?style=for-the-badge&logo=github&color=brightgreen)](https://github.com/muhumair2025/Korvexa-Desktop-Rich-Clipboard/releases)
 [![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows)](https://korvexa.app)
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PySide6 / Qt6](https://img.shields.io/badge/GUI-PySide6%20%2F%20Qt6-41CD52?style=for-the-badge&logo=qt)](https://www.qt.io/)
@@ -12,14 +15,14 @@
 
 <br/>
 
-<img src="images/popup%20clipboard%20model.png" width="480" alt="ClipVault Windows Rich Clipboard Popup" />
+<img src="images/popup%20clipboard%20model.png" width="500" alt="ClipVault Windows Rich Clipboard Popup" />
 
 <p align="center">
   <b>Developed with ❤️ by <a href="https://korvexa.app">Muhammad Umair</a> for <a href="https://korvexa.app">Korvexa.app</a></b><br/>
   <i>Your ultimate local-first, zero-telemetry Windows clipboard companion with true rich-data support.</i>
 </p>
 
-[Download Latest Installer](https://github.com/muhumair2025/Korvexa-Desktop-Rich-Clipboard/releases) • [Features](#-key-features) • [Screenshots](#-visual-tour--screenshots) • [Keyboard Shortcuts](#-keyboard-shortcuts) • [Building from Source](#-building-from-source)
+[📥 Download Latest Installer](https://github.com/muhumair2025/Korvexa-Desktop-Rich-Clipboard/releases) • [✨ Key Features](#-key-features) • [⚡ Why ClipVault?](#-why-clipvault-comparison) • [📸 Screenshots](#-visual-tour--screenshots) • [⌨️ Shortcuts](#-keyboard-shortcuts) • [🛠️ Build from Source](#-building-from-source)
 
 </div>
 
@@ -27,9 +30,26 @@
 
 ## 🌟 Overview
 
-**ClipVault** by **Korvexa.app** is a production-grade, open-source Windows clipboard manager designed to transcend the limitations of the default `Win + V` clipboard. Built with **Python 3.12+**, **PySide6 (Qt6)**, **SQLite (WAL + FTS5 Full-Text Search)**, and **Native Win32 APIs**, it offers blistering performance, rich multi-format capture, smart non-overlapping popup positioning, and complete offline privacy.
+**ClipVault** by **Korvexa.app** is a production-grade, open-source Windows clipboard manager designed to transcend the limitations of the default `Win + V` clipboard. Built with **Python 3.12+**, **PySide6 (Qt6)**, **SQLite (WAL + FTS5 Full-Text Search)**, and **Native Win32 APIs**, it delivers lightning-fast capture, rich multi-format handling, smart non-overlapping popup placement, and complete offline privacy.
 
 Whether you are copying multi-paragraph text, rich HTML, screenshots from Snipping Tool, files and directories from Windows Explorer, or website URLs, ClipVault preserves, indexes, and makes everything instantly accessible with a single click.
+
+---
+
+## ⚡ Why ClipVault? (Comparison)
+
+| Feature | Windows `Win + V` | Generic Clipboard Tools | 📋 **ClipVault** |
+| :--- | :---: | :---: | :---: |
+| **Rich HTML & Plain Text Dual-Format** | ⚠️ Partial | ❌ No | ✅ **Full (Paste rich or plain)** |
+| **Instant Single-Click Paste** | ❌ Multi-step | ⚠️ Inconsistent | ✅ **Yes (Instant `Ctrl+V`)** |
+| **Smart Non-Overlapping Position** | ❌ Fixed | ❌ Overlaps input | ✅ **Dynamic (Above/Below input)** |
+| **Explorer File Drop (`CF_HDROP`)** | ❌ No | ⚠️ Text path only | ✅ **Native File Drop structure** |
+| **Topmost Modal Visibility** | ⚠️ Unstable | ❌ Buried behind dialogs | ✅ **Native `HWND_TOPMOST` guarantee** |
+| **Screenshot Burst Debounce** | ❌ Duplicate events | ❌ Duplicate events | ✅ **120ms atomic coalescing** |
+| **Full History Backup (Zip Export/Import)**| ❌ No | ⚠️ Complex DB copy | ✅ **1-Click `.zip` Migration** |
+| **100% Offline / Zero Telemetry** | ❌ MS Account Sync | ⚠️ Varies | ✅ **100% Local-First** |
+| **Sensitive Data Heuristic Filter** | ❌ No | ❌ No | ✅ **Auto-detect passwords & keys** |
+| **SQLite FTS5 Full-Text Search** | ⚠️ Basic prefix | ⚠️ Slow substring | ✅ **Blazing FTS5 Indexing** |
 
 ---
 
@@ -203,7 +223,13 @@ Korvexa-Desktop-Rich-Clipboard/
 ├── requirements.txt                 # Dependencies
 ├── ClipVault.spec                   # PyInstaller single-file bundle spec
 ├── build.py                         # Build automation script
-├── .github/workflows/               # GitHub Actions CI/CD release workflow
+├── .github/
+│   ├── workflows/                   # GitHub Actions CI/CD release workflow
+│   ├── ISSUE_TEMPLATE/              # Bug report & Feature request templates
+│   └── pull_request_template.md     # Pull request template
+├── CONTRIBUTING.md                  # Contribution guidelines
+├── CODE_OF_CONDUCT.md               # Contributor Covenant code of conduct
+├── SECURITY.md                      # Security reporting policy
 ├── installer/
 │   ├── setup.iss                    # Modern Inno Setup script with Pascal code
 │   ├── ABOUT.txt                    # App description page

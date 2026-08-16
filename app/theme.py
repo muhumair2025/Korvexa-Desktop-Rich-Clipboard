@@ -161,7 +161,7 @@ QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
     background-color: #ffffff;
     border: 1px solid #e2e2e2;
     border-radius: 4px;
-    padding: 6px 10px;
+    padding: 0px;
 }
 
 #ItemCard:hover {
@@ -415,7 +415,7 @@ QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
     background-color: #2b2b2b;
     border: 1px solid #383838;
     border-radius: 4px;
-    padding: 6px 10px;
+    padding: 0px;
 }
 
 #ItemCard:hover {

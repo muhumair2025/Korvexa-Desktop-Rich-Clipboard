@@ -30,6 +30,7 @@ from services.image_service import ImageService
 from services.paste_service import PasteService
 from services.privacy_service import PrivacyService
 from services.retention_service import RetentionService
+from services.startup_service import StartupService
 from storage.paths import StoragePaths
 from ui.icons import IconProvider
 from ui.tray import SystemTray

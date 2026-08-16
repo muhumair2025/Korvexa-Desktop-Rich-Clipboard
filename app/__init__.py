@@ -1,0 +1,1 @@
+"""ClipVault application package."""

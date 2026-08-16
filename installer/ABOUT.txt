@@ -1,0 +1,28 @@
+===================================================================
+ ClipVault — Advanced Windows Rich Clipboard Manager
+ Developed by: Muhammad Umair
+ Organization: Korvexa.app (https://korvexa.app)
+ Support: support@korvexa.app
+===================================================================
+
+Thank you for choosing ClipVault!
+
+ClipVault is a modern, high-performance clipboard manager designed 
+for Windows 10 and 11. It extends your workflow with multi-format 
+history, full persistence, intelligent deduplication, and rich data 
+support.
+
+KEY CAPABILITIES:
+- Real Windows Clipboard Integration: Captures Plain Text, Rich HTML,
+  Images/Screenshots, Files & Folders, and URLs.
+- Win + V Inspired Flat Design: Clean, responsive list view with
+  single-click instant paste and keyboard navigation.
+- 100% Local-First Privacy: All history, database records, and media 
+  snapshots stay strictly on your local machine. Zero telemetry.
+- Backup & Migration: One-click export and import of your entire
+  clipboard history and pinned items across devices.
+- Auto-Start with Windows: Ready immediately every time you boot.
+
+For questions, feature requests, or support:
+Website: https://korvexa.app
+Support: support@korvexa.app

@@ -1,0 +1,34 @@
+===================================================================
+ ClipVault — Privacy Policy & Local-First Statement
+ Organization: Korvexa.app (https://korvexa.app)
+ Contact: support@korvexa.app
+===================================================================
+
+1. 100% LOCAL STORAGE
+All clipboard history, text snippets, HTML content, image files,
+and file metadata captured by ClipVault are stored exclusively on
+your local storage drive in:
+%LOCALAPPDATA%\ClipVault\
+
+2. ZERO CLOUD TELEMETRY & ZERO TRACKING
+ClipVault does NOT upload, transmit, sync, or broadcast your clipboard
+data to any external servers, third-party analytics, or cloud networks.
+The application operates entirely offline.
+
+3. SENSITIVE DATA PROTECTION
+ClipVault includes built-in heuristic pattern matching to automatically
+detect and protect sensitive inputs (such as passwords, private keys, 
+credit card numbers, and API tokens).
+
+4. IGNORED APPLICATIONS
+You can configure ClipVault in Settings to ignore specific security
+applications (e.g. password managers like 1Password, Bitwarden, KeePass)
+to prevent sensitive credentials from ever being recorded in history.
+
+5. DATA REMOVAL & PORTABILITY
+You have full ownership of your data at all times. You can export your
+complete history via Settings > History > Export Backup, or permanently
+delete all history at any time.
+
+By installing ClipVault, you acknowledge and agree to this local-first
+privacy model.
